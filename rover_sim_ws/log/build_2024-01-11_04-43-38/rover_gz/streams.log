@@ -1,0 +1,26 @@
+[0.086s] Invoking command in '/catkin_ws/rover_sim_ws/build/rover_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/catkin_ws/rover_sim_ws/install/ros_gz_interfaces:/opt/ros/humble /usr/bin/cmake --build /catkin_ws/rover_sim_ws/build/rover_gz -- -j8 -l8
+[0.126s] Invoked command in '/catkin_ws/rover_sim_ws/build/rover_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/catkin_ws/rover_sim_ws/install/ros_gz_interfaces:/opt/ros/humble /usr/bin/cmake --build /catkin_ws/rover_sim_ws/build/rover_gz -- -j8 -l8
+[0.172s] Invoking command in '/catkin_ws/rover_sim_ws/build/rover_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/catkin_ws/rover_sim_ws/install/ros_gz_interfaces:/opt/ros/humble /usr/bin/cmake --install /catkin_ws/rover_sim_ws/build/rover_gz
+[0.181s] -- Install configuration: ""
+[0.182s] -- Up-to-date: /catkin_ws/rover_sim_ws/install/rover_gz/share/rover_gz//launch
+[0.182s] -- Installing: /catkin_ws/rover_sim_ws/install/rover_gz/share/rover_gz//launch/lunar_world.launch.py
+[0.183s] -- Up-to-date: /catkin_ws/rover_sim_ws/install/rover_gz/share/rover_gz//launch/__pycache__
+[0.183s] -- Installing: /catkin_ws/rover_sim_ws/install/rover_gz/share/rover_gz//launch/__pycache__/lunar_world.launch.cpython-310.pyc
+[0.183s] -- Up-to-date: /catkin_ws/rover_sim_ws/install/rover_gz/share/rover_gz//worlds
+[0.183s] -- Up-to-date: /catkin_ws/rover_sim_ws/install/rover_gz/share/rover_gz//worlds/moon.world
+[0.184s] -- Up-to-date: /catkin_ws/rover_sim_ws/install/rover_gz/share/ament_index/resource_index/package_run_dependencies/rover_gz
+[0.184s] -- Up-to-date: /catkin_ws/rover_sim_ws/install/rover_gz/share/ament_index/resource_index/parent_prefix_path/rover_gz
+[0.184s] -- Up-to-date: /catkin_ws/rover_sim_ws/install/rover_gz/share/rover_gz/environment/ament_prefix_path.sh
+[0.184s] -- Up-to-date: /catkin_ws/rover_sim_ws/install/rover_gz/share/rover_gz/environment/ament_prefix_path.dsv
+[0.184s] -- Up-to-date: /catkin_ws/rover_sim_ws/install/rover_gz/share/rover_gz/environment/path.sh
+[0.184s] -- Up-to-date: /catkin_ws/rover_sim_ws/install/rover_gz/share/rover_gz/environment/path.dsv
+[0.184s] -- Up-to-date: /catkin_ws/rover_sim_ws/install/rover_gz/share/rover_gz/local_setup.bash
+[0.185s] -- Up-to-date: /catkin_ws/rover_sim_ws/install/rover_gz/share/rover_gz/local_setup.sh
+[0.185s] -- Up-to-date: /catkin_ws/rover_sim_ws/install/rover_gz/share/rover_gz/local_setup.zsh
+[0.185s] -- Up-to-date: /catkin_ws/rover_sim_ws/install/rover_gz/share/rover_gz/local_setup.dsv
+[0.185s] -- Installing: /catkin_ws/rover_sim_ws/install/rover_gz/share/rover_gz/package.dsv
+[0.186s] -- Up-to-date: /catkin_ws/rover_sim_ws/install/rover_gz/share/ament_index/resource_index/packages/rover_gz
+[0.186s] -- Up-to-date: /catkin_ws/rover_sim_ws/install/rover_gz/share/rover_gz/cmake/rover_gzConfig.cmake
+[0.186s] -- Up-to-date: /catkin_ws/rover_sim_ws/install/rover_gz/share/rover_gz/cmake/rover_gzConfig-version.cmake
+[0.187s] -- Up-to-date: /catkin_ws/rover_sim_ws/install/rover_gz/share/rover_gz/package.xml
+[0.188s] Invoked command in '/catkin_ws/rover_sim_ws/build/rover_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/catkin_ws/rover_sim_ws/install/ros_gz_interfaces:/opt/ros/humble /usr/bin/cmake --install /catkin_ws/rover_sim_ws/build/rover_gz

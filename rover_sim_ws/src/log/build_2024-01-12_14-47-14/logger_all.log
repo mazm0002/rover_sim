@@ -1,0 +1,388 @@
+[1.048s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.048s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f77877859c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7787785d20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7787785d20>>, mixin_verb=('build',))
+[1.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.093s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[1.094s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[1.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.094s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/catkin_ws/rover_sim_ws/src'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control) by extension 'ignore'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control) by extension 'ignore_ament_install'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control) by extensions ['colcon_pkg']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control) by extension 'colcon_pkg'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control) by extensions ['colcon_meta']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control) by extension 'colcon_meta'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control) by extensions ['ros']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control) by extension 'ros'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control) by extensions ['cmake', 'python']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control) by extension 'cmake'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control) by extension 'python'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control) by extensions ['python_setup_py']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control) by extension 'python_setup_py'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/Dockerfile) by extensions ['ignore', 'ignore_ament_install']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/Dockerfile) by extension 'ignore'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/Dockerfile) by extension 'ignore_ament_install'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/Dockerfile) by extensions ['colcon_pkg']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/Dockerfile) by extension 'colcon_pkg'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/Dockerfile) by extensions ['colcon_meta']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/Dockerfile) by extension 'colcon_meta'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/Dockerfile) by extensions ['ros']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/Dockerfile) by extension 'ros'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/Dockerfile) by extensions ['cmake', 'python']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/Dockerfile) by extension 'cmake'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/Dockerfile) by extension 'python'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/Dockerfile) by extensions ['python_setup_py']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/Dockerfile) by extension 'python_setup_py'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc) by extensions ['ignore', 'ignore_ament_install']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc) by extension 'ignore'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc) by extension 'ignore_ament_install'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc) by extensions ['colcon_pkg']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc) by extension 'colcon_pkg'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc) by extensions ['colcon_meta']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc) by extension 'colcon_meta'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc) by extensions ['ros']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc) by extension 'ros'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc) by extensions ['cmake', 'python']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc) by extension 'cmake'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc) by extension 'python'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc) by extensions ['python_setup_py']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc) by extension 'python_setup_py'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc/img) by extensions ['ignore', 'ignore_ament_install']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc/img) by extension 'ignore'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc/img) by extension 'ignore_ament_install'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc/img) by extensions ['colcon_pkg']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc/img) by extension 'colcon_pkg'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc/img) by extensions ['colcon_meta']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc/img) by extension 'colcon_meta'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc/img) by extensions ['ros']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc/img) by extension 'ros'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc/img) by extensions ['cmake', 'python']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc/img) by extension 'cmake'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc/img) by extension 'python'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc/img) by extensions ['python_setup_py']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/doc/img) by extension 'python_setup_py'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/gz_ros2_control_tests) by extensions ['ignore', 'ignore_ament_install']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/gz_ros2_control_tests) by extension 'ignore'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/gz_ros2_control_tests) by extension 'ignore_ament_install'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/gz_ros2_control_tests) by extensions ['colcon_pkg']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/gz_ros2_control_tests) by extension 'colcon_pkg'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/gz_ros2_control_tests) by extensions ['colcon_meta']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/gz_ros2_control_tests) by extension 'colcon_meta'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/gz_ros2_control_tests) by extensions ['ros']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/gz_ros2_control_tests) by extension 'ros'
+[1.116s] DEBUG:colcon.colcon_core.package_identification:Package 'gz_ros2_control/gz_ros2_control_tests' with type 'ros.ament_cmake' and name 'gz_ros2_control_tests'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/ign_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/ign_ros2_control) by extension 'ignore'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/ign_ros2_control) by extension 'ignore_ament_install'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/ign_ros2_control) by extensions ['colcon_pkg']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/ign_ros2_control) by extension 'colcon_pkg'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/ign_ros2_control) by extensions ['colcon_meta']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/ign_ros2_control) by extension 'colcon_meta'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/ign_ros2_control) by extensions ['ros']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/ign_ros2_control) by extension 'ros'
+[1.121s] DEBUG:colcon.colcon_core.package_identification:Package 'gz_ros2_control/ign_ros2_control' with type 'ros.ament_cmake' and name 'ign_ros2_control'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/ign_ros2_control_demos) by extensions ['ignore', 'ignore_ament_install']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/ign_ros2_control_demos) by extension 'ignore'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/ign_ros2_control_demos) by extension 'ignore_ament_install'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/ign_ros2_control_demos) by extensions ['colcon_pkg']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/ign_ros2_control_demos) by extension 'colcon_pkg'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/ign_ros2_control_demos) by extensions ['colcon_meta']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/ign_ros2_control_demos) by extension 'colcon_meta'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/ign_ros2_control_demos) by extensions ['ros']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(gz_ros2_control/ign_ros2_control_demos) by extension 'ros'
+[1.122s] DEBUG:colcon.colcon_core.package_identification:Package 'gz_ros2_control/ign_ros2_control_demos' with type 'ros.ament_cmake' and name 'ign_ros2_control_demos'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(rover_gz) by extensions ['ignore', 'ignore_ament_install']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(rover_gz) by extension 'ignore'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(rover_gz) by extension 'ignore_ament_install'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(rover_gz) by extensions ['colcon_pkg']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(rover_gz) by extension 'colcon_pkg'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(rover_gz) by extensions ['colcon_meta']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(rover_gz) by extension 'colcon_meta'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(rover_gz) by extensions ['ros']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(rover_gz) by extension 'ros'
+[1.124s] DEBUG:colcon.colcon_core.package_identification:Package 'rover_gz' with type 'ros.ament_cmake' and name 'rover_gz'
+[1.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_args' from command line to 'None'
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_target' from command line to 'None'
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.192s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.192s] DEBUG:colcon.colcon_core.verb:Building package 'ign_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/catkin_ws/rover_sim_ws/src/build/ign_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control', 'merge_install': False, 'path': '/catkin_ws/rover_sim_ws/src/gz_ros2_control/ign_ros2_control', 'symlink_install': False, 'test_result_base': None}
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rover_gz' build argument 'cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rover_gz' build argument 'cmake_target' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rover_gz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rover_gz' build argument 'cmake_clean_cache' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rover_gz' build argument 'cmake_clean_first' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rover_gz' build argument 'cmake_force_configure' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rover_gz' build argument 'ament_cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rover_gz' build argument 'catkin_cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rover_gz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.204s] DEBUG:colcon.colcon_core.verb:Building package 'rover_gz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/catkin_ws/rover_sim_ws/src/build/rover_gz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/catkin_ws/rover_sim_ws/src/install/rover_gz', 'merge_install': False, 'path': '/catkin_ws/rover_sim_ws/src/rover_gz', 'symlink_install': False, 'test_result_base': None}
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'cmake_args' from command line to 'None'
+[1.216s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'cmake_target' from command line to 'None'
+[1.216s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.216s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'cmake_clean_cache' from command line to 'False'
+[1.216s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'cmake_clean_first' from command line to 'False'
+[1.216s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'cmake_force_configure' from command line to 'False'
+[1.216s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'ament_cmake_args' from command line to 'None'
+[1.216s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'catkin_cmake_args' from command line to 'None'
+[1.216s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.216s] DEBUG:colcon.colcon_core.verb:Building package 'gz_ros2_control_tests' with the following arguments: {'ament_cmake_args': None, 'build_base': '/catkin_ws/rover_sim_ws/src/build/gz_ros2_control_tests', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests', 'merge_install': False, 'path': '/catkin_ws/rover_sim_ws/src/gz_ros2_control/gz_ros2_control_tests', 'symlink_install': False, 'test_result_base': None}
+[1.227s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_args' from command line to 'None'
+[1.227s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_target' from command line to 'None'
+[1.227s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_clean_first' from command line to 'False'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_force_configure' from command line to 'False'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'ament_cmake_args' from command line to 'None'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.228s] DEBUG:colcon.colcon_core.verb:Building package 'ign_ros2_control_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/catkin_ws/rover_sim_ws/src/build/ign_ros2_control_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos', 'merge_install': False, 'path': '/catkin_ws/rover_sim_ws/src/gz_ros2_control/ign_ros2_control_demos', 'symlink_install': False, 'test_result_base': None}
+[1.239s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.253s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.253s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/catkin_ws/rover_sim_ws/src/gz_ros2_control/ign_ros2_control' with build type 'ament_cmake'
+[1.254s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/catkin_ws/rover_sim_ws/src/gz_ros2_control/ign_ros2_control'
+[1.269s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.269s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.269s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.311s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/catkin_ws/rover_sim_ws/src/rover_gz' with build type 'ament_cmake'
+[1.311s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/catkin_ws/rover_sim_ws/src/rover_gz'
+[1.325s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.325s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/catkin_ws/rover_sim_ws/src/build/ign_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /catkin_ws/rover_sim_ws/src/gz_ros2_control/ign_ros2_control -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control
+[1.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/catkin_ws/rover_sim_ws/src/build/rover_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /catkin_ws/rover_sim_ws/src/rover_gz -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/src/install/rover_gz
+[2.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/catkin_ws/rover_sim_ws/src/build/rover_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /catkin_ws/rover_sim_ws/src/rover_gz -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/src/install/rover_gz
+[2.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/catkin_ws/rover_sim_ws/src/build/rover_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /catkin_ws/rover_sim_ws/src/build/rover_gz -- -j8 -l8
+[2.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/catkin_ws/rover_sim_ws/src/build/rover_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /catkin_ws/rover_sim_ws/src/build/rover_gz -- -j8 -l8
+[2.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/catkin_ws/rover_sim_ws/src/build/rover_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /catkin_ws/rover_sim_ws/src/build/rover_gz
+[5.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/catkin_ws/rover_sim_ws/src/build/ign_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /catkin_ws/rover_sim_ws/src/gz_ros2_control/ign_ros2_control -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control
+[5.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/catkin_ws/rover_sim_ws/src/build/ign_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /catkin_ws/rover_sim_ws/src/build/ign_ros2_control -- -j8 -l8
+[7.650s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rover_gz)
+[7.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/catkin_ws/rover_sim_ws/src/build/rover_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /catkin_ws/rover_sim_ws/src/build/rover_gz
+[7.666s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/rover_gz' for CMake module files
+[7.667s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/rover_gz' for CMake config files
+[7.667s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_gz', 'cmake_prefix_path')
+[7.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/catkin_ws/rover_sim_ws/src/install/rover_gz/share/rover_gz/hook/cmake_prefix_path.ps1'
+[7.683s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/catkin_ws/rover_sim_ws/src/install/rover_gz/share/rover_gz/hook/cmake_prefix_path.dsv'
+[7.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/catkin_ws/rover_sim_ws/src/install/rover_gz/share/rover_gz/hook/cmake_prefix_path.sh'
+[7.685s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/rover_gz/bin'
+[7.685s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/rover_gz/lib/pkgconfig/rover_gz.pc'
+[7.687s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/rover_gz/lib/python3.10/site-packages'
+[7.687s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/rover_gz/bin'
+[7.700s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/rover_gz/share/rover_gz/package.ps1'
+[7.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/catkin_ws/rover_sim_ws/src/install/rover_gz/share/rover_gz/package.dsv'
+[7.701s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/rover_gz/share/rover_gz/package.sh'
+[7.702s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/rover_gz/share/rover_gz/package.bash'
+[7.703s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/rover_gz/share/rover_gz/package.zsh'
+[7.704s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/catkin_ws/rover_sim_ws/src/install/rover_gz/share/colcon-core/packages/rover_gz)
+[7.740s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rover_gz)
+[7.759s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/rover_gz' for CMake module files
+[7.759s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/rover_gz' for CMake config files
+[7.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_gz', 'cmake_prefix_path')
+[7.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/catkin_ws/rover_sim_ws/src/install/rover_gz/share/rover_gz/hook/cmake_prefix_path.ps1'
+[7.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/catkin_ws/rover_sim_ws/src/install/rover_gz/share/rover_gz/hook/cmake_prefix_path.dsv'
+[7.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/catkin_ws/rover_sim_ws/src/install/rover_gz/share/rover_gz/hook/cmake_prefix_path.sh'
+[7.777s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/rover_gz/bin'
+[7.777s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/rover_gz/lib/pkgconfig/rover_gz.pc'
+[7.777s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/rover_gz/lib/python3.10/site-packages'
+[7.778s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/rover_gz/bin'
+[7.797s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/rover_gz/share/rover_gz/package.ps1'
+[7.798s] INFO:colcon.colcon_core.shell:Creating package descriptor '/catkin_ws/rover_sim_ws/src/install/rover_gz/share/rover_gz/package.dsv'
+[7.799s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/rover_gz/share/rover_gz/package.sh'
+[7.799s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/rover_gz/share/rover_gz/package.bash'
+[7.800s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/rover_gz/share/rover_gz/package.zsh'
+[7.801s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/catkin_ws/rover_sim_ws/src/install/rover_gz/share/colcon-core/packages/rover_gz)
+[20.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/catkin_ws/rover_sim_ws/src/build/ign_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /catkin_ws/rover_sim_ws/src/build/ign_ros2_control -- -j8 -l8
+[20.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/catkin_ws/rover_sim_ws/src/build/ign_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /catkin_ws/rover_sim_ws/src/build/ign_ros2_control
+[20.362s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ign_ros2_control)
+[20.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/catkin_ws/rover_sim_ws/src/build/ign_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /catkin_ws/rover_sim_ws/src/build/ign_ros2_control
+[20.375s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control' for CMake module files
+[20.376s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control' for CMake config files
+[20.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control', 'cmake_prefix_path')
+[20.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.ps1'
+[20.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.dsv'
+[20.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.sh'
+[20.389s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/lib'
+[20.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control', 'ld_library_path_lib')
+[20.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/hook/ld_library_path_lib.ps1'
+[20.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/hook/ld_library_path_lib.dsv'
+[20.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/hook/ld_library_path_lib.sh'
+[20.404s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/bin'
+[20.404s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/lib/pkgconfig/ign_ros2_control.pc'
+[20.404s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/lib/python3.10/site-packages'
+[20.405s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/bin'
+[20.424s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/package.ps1'
+[20.425s] INFO:colcon.colcon_core.shell:Creating package descriptor '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/package.dsv'
+[20.425s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/package.sh'
+[20.425s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/package.bash'
+[20.426s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/package.zsh'
+[20.426s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/colcon-core/packages/ign_ros2_control)
+[20.462s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ign_ros2_control)
+[20.479s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control' for CMake module files
+[20.480s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control' for CMake config files
+[20.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control', 'cmake_prefix_path')
+[20.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.ps1'
+[20.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.dsv'
+[20.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.sh'
+[20.499s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/lib'
+[20.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control', 'ld_library_path_lib')
+[20.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/hook/ld_library_path_lib.ps1'
+[20.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/hook/ld_library_path_lib.dsv'
+[20.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/hook/ld_library_path_lib.sh'
+[20.516s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/bin'
+[20.516s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/lib/pkgconfig/ign_ros2_control.pc'
+[20.516s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/lib/python3.10/site-packages'
+[20.517s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/bin'
+[20.533s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/package.ps1'
+[20.533s] INFO:colcon.colcon_core.shell:Creating package descriptor '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/package.dsv'
+[20.534s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/package.sh'
+[20.534s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/package.bash'
+[20.535s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/ign_ros2_control/package.zsh'
+[20.535s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/share/colcon-core/packages/ign_ros2_control)
+[20.536s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/catkin_ws/rover_sim_ws/src/gz_ros2_control/gz_ros2_control_tests' with build type 'ament_cmake'
+[20.536s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/catkin_ws/rover_sim_ws/src/gz_ros2_control/gz_ros2_control_tests'
+[20.552s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.552s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.600s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/catkin_ws/rover_sim_ws/src/gz_ros2_control/ign_ros2_control_demos' with build type 'ament_cmake'
+[20.600s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/catkin_ws/rover_sim_ws/src/gz_ros2_control/ign_ros2_control_demos'
+[20.627s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.628s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/catkin_ws/rover_sim_ws/src/build/gz_ros2_control_tests': AMENT_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/catkin_ws/rover_sim_ws/install/ign_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /catkin_ws/rover_sim_ws/src/gz_ros2_control/gz_ros2_control_tests -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests
+[20.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/catkin_ws/rover_sim_ws/src/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/catkin_ws/rover_sim_ws/install/ign_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /catkin_ws/rover_sim_ws/src/gz_ros2_control/ign_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos
+[22.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/catkin_ws/rover_sim_ws/src/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/catkin_ws/rover_sim_ws/install/ign_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /catkin_ws/rover_sim_ws/src/gz_ros2_control/ign_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos
+[22.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/catkin_ws/rover_sim_ws/src/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/catkin_ws/rover_sim_ws/install/ign_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /catkin_ws/rover_sim_ws/src/build/ign_ros2_control_demos -- -j8 -l8
+[22.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/catkin_ws/rover_sim_ws/src/build/gz_ros2_control_tests' returned '0': AMENT_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/catkin_ws/rover_sim_ws/install/ign_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /catkin_ws/rover_sim_ws/src/gz_ros2_control/gz_ros2_control_tests -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests
+[22.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/catkin_ws/rover_sim_ws/src/build/gz_ros2_control_tests': AMENT_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/catkin_ws/rover_sim_ws/install/ign_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /catkin_ws/rover_sim_ws/src/build/gz_ros2_control_tests -- -j8 -l8
+[31.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/catkin_ws/rover_sim_ws/src/build/gz_ros2_control_tests' returned '0': AMENT_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/catkin_ws/rover_sim_ws/install/ign_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /catkin_ws/rover_sim_ws/src/build/gz_ros2_control_tests -- -j8 -l8
+[31.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/catkin_ws/rover_sim_ws/src/build/gz_ros2_control_tests': AMENT_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/catkin_ws/rover_sim_ws/install/ign_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /catkin_ws/rover_sim_ws/src/build/gz_ros2_control_tests
+[31.123s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz_ros2_control_tests)
+[31.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/catkin_ws/rover_sim_ws/src/build/gz_ros2_control_tests' returned '0': AMENT_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/catkin_ws/rover_sim_ws/install/ign_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /catkin_ws/rover_sim_ws/src/build/gz_ros2_control_tests
+[31.143s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests' for CMake module files
+[31.144s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests' for CMake config files
+[31.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz_ros2_control_tests', 'cmake_prefix_path')
+[31.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/share/gz_ros2_control_tests/hook/cmake_prefix_path.ps1'
+[31.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/share/gz_ros2_control_tests/hook/cmake_prefix_path.dsv'
+[31.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/share/gz_ros2_control_tests/hook/cmake_prefix_path.sh'
+[31.158s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/lib'
+[31.158s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/bin'
+[31.158s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/lib/pkgconfig/gz_ros2_control_tests.pc'
+[31.158s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/lib/python3.10/site-packages'
+[31.159s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/bin'
+[31.171s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.ps1'
+[31.172s] INFO:colcon.colcon_core.shell:Creating package descriptor '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.dsv'
+[31.172s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.sh'
+[31.173s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.bash'
+[31.173s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.zsh'
+[31.173s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/share/colcon-core/packages/gz_ros2_control_tests)
+[31.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/catkin_ws/rover_sim_ws/src/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/catkin_ws/rover_sim_ws/install/ign_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /catkin_ws/rover_sim_ws/src/build/ign_ros2_control_demos -- -j8 -l8
+[31.205s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz_ros2_control_tests)
+[31.218s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests' for CMake module files
+[31.218s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests' for CMake config files
+[31.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz_ros2_control_tests', 'cmake_prefix_path')
+[31.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/share/gz_ros2_control_tests/hook/cmake_prefix_path.ps1'
+[31.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/share/gz_ros2_control_tests/hook/cmake_prefix_path.dsv'
+[31.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/share/gz_ros2_control_tests/hook/cmake_prefix_path.sh'
+[31.233s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/lib'
+[31.233s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/bin'
+[31.233s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/lib/pkgconfig/gz_ros2_control_tests.pc'
+[31.233s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/lib/python3.10/site-packages'
+[31.234s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/bin'
+[31.248s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.ps1'
+[31.248s] INFO:colcon.colcon_core.shell:Creating package descriptor '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.dsv'
+[31.249s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.sh'
+[31.249s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.bash'
+[31.250s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.zsh'
+[31.250s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/catkin_ws/rover_sim_ws/src/install/gz_ros2_control_tests/share/colcon-core/packages/gz_ros2_control_tests)
+[31.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/catkin_ws/rover_sim_ws/src/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/catkin_ws/rover_sim_ws/install/ign_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /catkin_ws/rover_sim_ws/src/build/ign_ros2_control_demos
+[31.276s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ign_ros2_control_demos)
+[31.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/catkin_ws/rover_sim_ws/src/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/catkin_ws/rover_sim_ws/install/ign_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/catkin_ws/rover_sim_ws/src/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /catkin_ws/rover_sim_ws/src/build/ign_ros2_control_demos
+[31.289s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos' for CMake module files
+[31.290s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos' for CMake config files
+[31.290s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control_demos', 'cmake_prefix_path')
+[31.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[31.305s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[31.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.sh'
+[31.306s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/lib'
+[31.306s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/bin'
+[31.306s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/lib/pkgconfig/ign_ros2_control_demos.pc'
+[31.307s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/lib/python3.10/site-packages'
+[31.307s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/bin'
+[31.319s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.ps1'
+[31.319s] INFO:colcon.colcon_core.shell:Creating package descriptor '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.dsv'
+[31.320s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.sh'
+[31.320s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.bash'
+[31.320s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.zsh'
+[31.320s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/share/colcon-core/packages/ign_ros2_control_demos)
+[31.363s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ign_ros2_control_demos)
+[31.375s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos' for CMake module files
+[31.376s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos' for CMake config files
+[31.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control_demos', 'cmake_prefix_path')
+[31.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[31.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[31.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.sh'
+[31.390s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/lib'
+[31.390s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/bin'
+[31.390s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/lib/pkgconfig/ign_ros2_control_demos.pc'
+[31.390s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/lib/python3.10/site-packages'
+[31.391s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/bin'
+[31.403s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.ps1'
+[31.404s] INFO:colcon.colcon_core.shell:Creating package descriptor '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.dsv'
+[31.404s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.sh'
+[31.405s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.bash'
+[31.405s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.zsh'
+[31.405s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/catkin_ws/rover_sim_ws/src/install/ign_ros2_control_demos/share/colcon-core/packages/ign_ros2_control_demos)
+[31.406s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[31.407s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[31.407s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[31.407s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[31.427s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[31.427s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[31.427s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[31.427s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[31.429s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[31.429s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[31.443s] INFO:colcon.colcon_core.shell:Creating prefix script '/catkin_ws/rover_sim_ws/src/install/local_setup.ps1'
+[31.444s] INFO:colcon.colcon_core.shell:Creating prefix util module '/catkin_ws/rover_sim_ws/src/install/_local_setup_util_ps1.py'
+[31.445s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/catkin_ws/rover_sim_ws/src/install/setup.ps1'
+[31.459s] INFO:colcon.colcon_core.shell:Creating prefix script '/catkin_ws/rover_sim_ws/src/install/local_setup.sh'
+[31.460s] INFO:colcon.colcon_core.shell:Creating prefix util module '/catkin_ws/rover_sim_ws/src/install/_local_setup_util_sh.py'
+[31.460s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/catkin_ws/rover_sim_ws/src/install/setup.sh'
+[31.474s] INFO:colcon.colcon_core.shell:Creating prefix script '/catkin_ws/rover_sim_ws/src/install/local_setup.bash'
+[31.474s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/catkin_ws/rover_sim_ws/src/install/setup.bash'
+[31.486s] INFO:colcon.colcon_core.shell:Creating prefix script '/catkin_ws/rover_sim_ws/src/install/local_setup.zsh'
+[31.487s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/catkin_ws/rover_sim_ws/src/install/setup.zsh'

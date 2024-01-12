@@ -1,0 +1,25 @@
+[0.082s] Invoking command in '/catkin_ws/rover_sim_ws/build/rover_gz': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /catkin_ws/rover_sim_ws/src/rover_gz -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/install/rover_gz
+[0.329s] -- The C compiler identification is GNU 11.4.0
+[0.503s] -- The CXX compiler identification is GNU 11.4.0
+[0.514s] -- Detecting C compiler ABI info
+[0.606s] -- Detecting C compiler ABI info - done
+[0.614s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.615s] -- Detecting C compile features
+[0.616s] -- Detecting C compile features - done
+[0.619s] -- Detecting CXX compiler ABI info
+[0.699s] -- Detecting CXX compiler ABI info - done
+[0.712s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.712s] -- Detecting CXX compile features
+[0.713s] -- Detecting CXX compile features - done
+[0.716s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.921s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.036s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.239s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.239s] -- Added test 'lint_cmake' to check CMake code style
+[1.240s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.241s] -- Added test 'xmllint' to check XML markup files
+[1.241s] -- Configuring done
+[1.242s] -- Generating done
+[1.243s] -- Build files have been written to: /catkin_ws/rover_sim_ws/build/rover_gz
+[1.243s] Invoked command in '/catkin_ws/rover_sim_ws/build/rover_gz' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /catkin_ws/rover_sim_ws/src/rover_gz -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/install/rover_gz
+[1.245s] Invoking command in '/catkin_ws/rover_sim_ws/build/rover_gz': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /catkin_ws/rover_sim_ws/build/rover_gz -- -j8 -l8

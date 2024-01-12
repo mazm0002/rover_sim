@@ -1,0 +1,8 @@
+[01m[K/catkin_ws/rover_sim_ws/src/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gz_ros2_control::GazeboSimROS2ControlPlugin::Configure(const Entity&, const std::shared_ptr<const sdf::v12::Element>&, ignition::gazebo::v6::EntityComponentManager&, ignition::gazebo::v6::EventManager&)[m[K’:
+[01m[K/catkin_ws/rover_sim_ws/src/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:416:67:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::HardwareInfo>, hardware_interface::HardwareInfo>::value_type[m[K’ {aka ‘[01m[Kstruct hardware_interface::HardwareInfo[m[K’} has no member named ‘[01m[Khardware_plugin_name[m[K’
+  416 |     std::string robot_hw_sim_type_str_ = control_hardware_info[i].[01;31m[Khardware_plugin_name[m[K;
+      |                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/gz_ros2_control-system.dir/build.make:76: CMakeFiles/gz_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gz_ros2_control-system.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

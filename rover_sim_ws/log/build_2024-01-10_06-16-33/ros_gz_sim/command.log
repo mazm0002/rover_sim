@@ -1,0 +1,2 @@
+Invoking command in '/catkin_ws/rover_sim_ws/build/ros_gz_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /catkin_ws/rover_sim_ws/src/ros_gz_sim -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/install/ros_gz_sim
+Invoked command in '/catkin_ws/rover_sim_ws/build/ros_gz_sim' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /catkin_ws/rover_sim_ws/src/ros_gz_sim -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/install/ros_gz_sim

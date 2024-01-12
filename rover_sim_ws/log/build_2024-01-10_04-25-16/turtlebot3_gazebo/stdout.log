@@ -1,0 +1,154 @@
+[ 25%] Built target turtlebot3_drive
+[ 50%] Built target obstacle2
+[ 75%] Built target obstacle1
+[100%] Built target obstacles
+-- Install configuration: ""
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/lunar_world.launch.py
+-- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/build
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/build/COLCON_IGNORE
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/build/.built_by
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/install
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/install/COLCON_IGNORE
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/install/local_setup.bash
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/install/setup.ps1
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/install/.colcon_install_layout
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/install/local_setup.ps1
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/install/local_setup.sh
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/install/setup.sh
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/install/local_setup.zsh
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/install/_local_setup_util_ps1.py
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/install/setup.bash
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/install/_local_setup_util_sh.py
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/install/setup.zsh
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+-- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/log
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/log/COLCON_IGNORE
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/log/latest_build
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/log/build_2024-01-10_04-19-53
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/log/build_2024-01-10_04-19-53/logger_all.log
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/log/build_2024-01-10_04-19-53/events.log
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/log/latest
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/materials
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/materials/textures
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/materials/textures/led.jpg
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/materials/textures/headlight.jpg
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/model.sdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/thumbnails
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/thumbnails/2.jpg
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/thumbnails/1.jpg
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/thumbnails/5.jpg
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/thumbnails/4.jpg
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/thumbnails/3.jpg
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/meshes
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/meshes/top_plate.dae
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/meshes/led.dae
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/meshes/chassis.dae
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/meshes/led_lamp.dae
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/meshes/wheel.dae
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/meshes/headlight.dae
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/meshes/headlight_lamp.dae
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/worlds
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/worlds/example.sdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/X1 Config 6/model.config
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/moon.world
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/include/
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+-- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+-- Up-to-date: /catkin_ws/rover_sim_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml

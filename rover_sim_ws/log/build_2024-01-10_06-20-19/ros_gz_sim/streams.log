@@ -1,0 +1,53 @@
+[0.070s] Invoking command in '/catkin_ws/rover_sim_ws/build/ros_gz_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /catkin_ws/rover_sim_ws/src/ros_gz_sim -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/install/ros_gz_sim
+[0.079s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.260s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.296s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.299s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.305s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.320s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.406s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.408s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.534s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.714s] -- Looking for gz-math7 -- found version 7.3.0
+[0.719s] -- Searching for dependencies of gz-math7
+[0.720s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.721s] -- Searching for dependencies of gz-utils2
+[0.722s] -- Looking for gz-transport12 -- found version 12.2.1
+[0.722s] -- Searching for dependencies of gz-transport12
+[0.754s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.758s] -- Checking for module 'libzmq >= 4'
+[0.767s] --   Found libzmq , version 4.3.4
+[0.824s] -- Checking for module 'uuid'
+[0.831s] --   Found uuid, version 2.37.2
+[0.838s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.839s] -- Searching for dependencies of gz-utils2
+[0.839s] -- Searching for <gz-utils2> component [cli]
+[0.839s] -- Looking for gz-utils2-cli -- found version 2.2.0
+[0.840s] -- Searching for dependencies of gz-utils2-cli
+[0.841s] -- Looking for gz-msgs9 -- found version 9.5.0
+[0.841s] -- Searching for dependencies of gz-msgs9
+[0.866s] -- Looking for gz-math7 -- found version 7.3.0
+[0.868s] -- Checking for module 'tinyxml2'
+[0.880s] --   Found tinyxml2, version 9.0.0
+[0.908s] -- Looking for gz-msgs9 -- found version 9.5.0
+[0.925s] -- Configuring incomplete, errors occurred!
+[0.925s] See also "/catkin_ws/rover_sim_ws/build/ros_gz_sim/CMakeFiles/CMakeOutput.log".
+[0.925s] [31mCMake Error at CMakeLists.txt:31 (find_package):
+[0.926s]   By not providing "Findgz-sim7.cmake" in CMAKE_MODULE_PATH this project has
+[0.926s]   asked CMake to find a package configuration file provided by "gz-sim7", but
+[0.926s]   CMake did not find one.
+[0.926s] 
+[0.926s]   Could not find a package configuration file provided by "gz-sim7" with any
+[0.927s]   of the following names:
+[0.927s] 
+[0.928s]     gz-sim7Config.cmake
+[0.928s]     gz-sim7-config.cmake
+[0.928s] 
+[0.929s]   Add the installation prefix of "gz-sim7" to CMAKE_PREFIX_PATH or set
+[0.929s]   "gz-sim7_DIR" to a directory containing one of the above files.  If
+[0.929s]   "gz-sim7" provides a separate development package or SDK, be sure it has
+[0.929s]   been installed.
+[0.929s] 
+[0.929s] [0m
+[0.954s] Invoked command in '/catkin_ws/rover_sim_ws/build/ros_gz_sim' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /catkin_ws/rover_sim_ws/src/ros_gz_sim -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/install/ros_gz_sim
