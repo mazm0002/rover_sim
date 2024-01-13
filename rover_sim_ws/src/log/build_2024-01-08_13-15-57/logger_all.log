@@ -1,0 +1,180 @@
+[1.303s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.304s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f16002451b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f16001ef1f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f16001ef1f0>>, mixin_verb=('build',))
+[1.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.359s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[1.360s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[1.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.360s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/catkin_ws/rover_sim_ws/src'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_msgs) by extension 'ignore'
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_msgs) by extension 'ignore_ament_install'
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_msgs) by extensions ['colcon_pkg']
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_msgs) by extension 'colcon_pkg'
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_msgs) by extensions ['colcon_meta']
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_msgs) by extension 'colcon_meta'
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_msgs) by extensions ['ros']
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_msgs) by extension 'ros'
+[1.377s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlebot3_msgs' with type 'ros.catkin' and name 'turtlebot3_msgs'
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'ignore'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'ignore_ament_install'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extensions ['colcon_pkg']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'colcon_pkg'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extensions ['colcon_meta']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'colcon_meta'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extensions ['ros']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'ros'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extensions ['cmake', 'python']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'cmake'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'python'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extensions ['python_setup_py']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'python_setup_py'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ignore', 'ignore_ament_install']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore_ament_install'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_pkg']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_pkg'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_meta']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_meta'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ros']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extension 'ros'
+[1.380s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlebot3_simulations/turtlebot3_fake_node' with type 'ros.ament_cmake' and name 'turtlebot3_fake_node'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_pkg'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_meta']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_meta'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ros']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extension 'ros'
+[1.382s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlebot3_simulations/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore_ament_install'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_pkg']
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_pkg'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_meta']
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_meta'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extensions ['ros']
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extension 'ros'
+[1.383s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlebot3_simulations/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[1.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.455s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/catkin_ws/rover_sim_ws/src/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/catkin_ws/rover_sim_ws/src/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/catkin_ws/rover_sim_ws/src/turtlebot3_simulations/turtlebot3_gazebo', 'symlink_install': False, 'test_result_base': None}
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'cmake_args' from command line to 'None'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'cmake_target' from command line to 'None'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.468s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/catkin_ws/rover_sim_ws/src/build/turtlebot3_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/catkin_ws/rover_sim_ws/src/install/turtlebot3_msgs', 'merge_install': False, 'path': '/catkin_ws/rover_sim_ws/src/turtlebot3_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_args' from command line to 'None'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target' from command line to 'None'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.485s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_fake_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/catkin_ws/rover_sim_ws/src/build/turtlebot3_fake_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/catkin_ws/rover_sim_ws/src/install/turtlebot3_fake_node', 'merge_install': False, 'path': '/catkin_ws/rover_sim_ws/src/turtlebot3_simulations/turtlebot3_fake_node', 'symlink_install': False, 'test_result_base': None}
+[1.499s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_args' from command line to 'None'
+[1.499s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target' from command line to 'None'
+[1.500s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.500s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[1.500s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[1.500s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[1.500s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[1.500s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[1.500s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.500s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/catkin_ws/rover_sim_ws/src/build/turtlebot3_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/catkin_ws/rover_sim_ws/src/install/turtlebot3_simulations', 'merge_install': False, 'path': '/catkin_ws/rover_sim_ws/src/turtlebot3_simulations/turtlebot3_simulations', 'symlink_install': False, 'test_result_base': None}
+[1.512s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.527s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.528s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/catkin_ws/rover_sim_ws/src/turtlebot3_msgs' with build type 'catkin'
+[1.528s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/catkin_ws/rover_sim_ws/src/turtlebot3_msgs'
+[1.545s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.545s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.545s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.576s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/catkin_ws/rover_sim_ws/src/turtlebot3_simulations/turtlebot3_gazebo' with build type 'ament_cmake'
+[1.577s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/catkin_ws/rover_sim_ws/src/turtlebot3_simulations/turtlebot3_gazebo'
+[1.592s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.592s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/catkin_ws/rover_sim_ws/src/build/turtlebot3_msgs': /usr/bin/cmake /catkin_ws/rover_sim_ws/src/turtlebot3_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/src/install/turtlebot3_msgs
+[1.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/catkin_ws/rover_sim_ws/src/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /catkin_ws/rover_sim_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/src/install/turtlebot3_gazebo
+[8.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/catkin_ws/rover_sim_ws/src/build/turtlebot3_msgs' returned '1': /usr/bin/cmake /catkin_ws/rover_sim_ws/src/turtlebot3_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/src/install/turtlebot3_msgs
+[8.199s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_msgs)
+[8.214s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/turtlebot3_msgs' for CMake module files
+[8.214s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/turtlebot3_msgs' for CMake config files
+[8.215s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/turtlebot3_msgs/bin'
+[8.215s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/turtlebot3_msgs/lib/pkgconfig/turtlebot3_msgs.pc'
+[8.217s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/turtlebot3_msgs/lib/python3.10/site-packages'
+[8.217s] Level 1:colcon.colcon_core.environment:checking '/catkin_ws/rover_sim_ws/src/install/turtlebot3_msgs/bin'
+[8.229s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/turtlebot3_msgs/share/turtlebot3_msgs/package.ps1'
+[8.231s] INFO:colcon.colcon_core.shell:Creating package descriptor '/catkin_ws/rover_sim_ws/src/install/turtlebot3_msgs/share/turtlebot3_msgs/package.dsv'
+[8.231s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/turtlebot3_msgs/share/turtlebot3_msgs/package.sh'
+[8.231s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/turtlebot3_msgs/share/turtlebot3_msgs/package.bash'
+[8.232s] INFO:colcon.colcon_core.shell:Creating package script '/catkin_ws/rover_sim_ws/src/install/turtlebot3_msgs/share/turtlebot3_msgs/package.zsh'
+[8.233s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/catkin_ws/rover_sim_ws/src/install/turtlebot3_msgs/share/colcon-core/packages/turtlebot3_msgs)
+[12.605s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.606s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.606s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[12.606s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.628s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[12.628s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.628s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.628s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.630s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[12.631s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.647s] INFO:colcon.colcon_core.shell:Creating prefix script '/catkin_ws/rover_sim_ws/src/install/local_setup.ps1'
+[12.648s] INFO:colcon.colcon_core.shell:Creating prefix util module '/catkin_ws/rover_sim_ws/src/install/_local_setup_util_ps1.py'
+[12.649s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/catkin_ws/rover_sim_ws/src/install/setup.ps1'
+[12.668s] INFO:colcon.colcon_core.shell:Creating prefix script '/catkin_ws/rover_sim_ws/src/install/local_setup.sh'
+[12.669s] INFO:colcon.colcon_core.shell:Creating prefix util module '/catkin_ws/rover_sim_ws/src/install/_local_setup_util_sh.py'
+[12.669s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/catkin_ws/rover_sim_ws/src/install/setup.sh'
+[12.684s] INFO:colcon.colcon_core.shell:Creating prefix script '/catkin_ws/rover_sim_ws/src/install/local_setup.bash'
+[12.684s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/catkin_ws/rover_sim_ws/src/install/setup.bash'
+[12.705s] INFO:colcon.colcon_core.shell:Creating prefix script '/catkin_ws/rover_sim_ws/src/install/local_setup.zsh'
+[12.705s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/catkin_ws/rover_sim_ws/src/install/setup.zsh'

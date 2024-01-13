@@ -1,0 +1,87 @@
+[0.157s] Invoking command in '/catkin_ws/rover_sim_ws/build/gz_ros2_control_tests': CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/opt/ros/humble /usr/bin/cmake /catkin_ws/rover_sim_ws/src/gz_ros2_control/gz_ros2_control_tests -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests
+[0.522s] -- The C compiler identification is GNU 11.4.0
+[0.916s] -- The CXX compiler identification is GNU 11.4.0
+[0.949s] -- Detecting C compiler ABI info
+[1.124s] -- Detecting C compiler ABI info - done
+[1.136s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.237s] -- Detecting C compile features
+[1.238s] -- Detecting C compile features - done
+[1.242s] -- Detecting CXX compiler ABI info
+[1.453s] -- Detecting CXX compiler ABI info - done
+[1.461s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.462s] -- Detecting CXX compile features
+[1.462s] -- Detecting CXX compile features - done
+[1.465s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.887s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.297s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.744s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[2.787s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.792s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.802s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.817s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.845s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.562s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[3.633s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.636s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.804s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.839s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.900s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.038s] -- Looking for pthread.h
+[4.243s] -- Looking for pthread.h - found
+[4.243s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.344s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.345s] -- Found Threads: TRUE  
+[4.499s] -- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)
+[4.662s] -- Found launch_testing_ament_cmake: 1.0.4 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[4.668s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.695s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.851s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.852s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.852s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.852s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.877s] -- Found PythonExtra: .so  
+[5.051s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.209s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.210s] -- Configured cppcheck include dirs: 
+[5.211s] -- Configured cppcheck exclude dirs and/or files: 
+[5.215s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.216s] -- Configured cpplint exclude dirs and/or files: 
+[5.218s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.222s] -- Added test 'lint_cmake' to check CMake code style
+[5.225s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.228s] -- Added test 'uncrustify' to check C / C++ code style
+[5.230s] -- Configured uncrustify additional arguments: 
+[5.232s] -- Added test 'xmllint' to check XML markup files
+[5.391s] -- Configuring done
+[5.626s] -- Generating done
+[5.626s] -- Build files have been written to: /catkin_ws/rover_sim_ws/build/gz_ros2_control_tests
+[5.651s] Invoked command in '/catkin_ws/rover_sim_ws/build/gz_ros2_control_tests' returned '0': CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/opt/ros/humble /usr/bin/cmake /catkin_ws/rover_sim_ws/src/gz_ros2_control/gz_ros2_control_tests -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests
+[5.653s] Invoking command in '/catkin_ws/rover_sim_ws/build/gz_ros2_control_tests': CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/opt/ros/humble /usr/bin/cmake --build /catkin_ws/rover_sim_ws/build/gz_ros2_control_tests -- -j8 -l8
+[5.744s] [ 50%] [32mBuilding CXX object CMakeFiles/test_position.dir/src/test_position.cpp.o[0m
+[20.036s] [100%] [32m[1mLinking CXX executable test_position[0m
+[20.437s] [100%] Built target test_position
+[20.450s] Invoked command in '/catkin_ws/rover_sim_ws/build/gz_ros2_control_tests' returned '0': CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/opt/ros/humble /usr/bin/cmake --build /catkin_ws/rover_sim_ws/build/gz_ros2_control_tests -- -j8 -l8
+[20.480s] Invoking command in '/catkin_ws/rover_sim_ws/build/gz_ros2_control_tests': CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/opt/ros/humble /usr/bin/cmake --install /catkin_ws/rover_sim_ws/build/gz_ros2_control_tests
+[20.487s] -- Install configuration: ""
+[20.488s] -- Installing: /catkin_ws/rover_sim_ws/install/gz_ros2_control_tests/lib/gz_ros2_control_tests/test_position
+[20.489s] -- Set runtime path of "/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests/lib/gz_ros2_control_tests/test_position" to ""
+[20.490s] -- Installing: /catkin_ws/rover_sim_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests//urdf
+[20.490s] -- Installing: /catkin_ws/rover_sim_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests//urdf/test_cart_position.xacro.urdf
+[20.491s] -- Installing: /catkin_ws/rover_sim_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests//config
+[20.491s] -- Installing: /catkin_ws/rover_sim_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests//config/cartpole_controller_position.yaml
+[20.492s] -- Installing: /catkin_ws/rover_sim_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control_tests
+[20.493s] -- Installing: /catkin_ws/rover_sim_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control_tests
+[20.493s] -- Installing: /catkin_ws/rover_sim_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/ament_prefix_path.sh
+[20.493s] -- Installing: /catkin_ws/rover_sim_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/ament_prefix_path.dsv
+[20.493s] -- Installing: /catkin_ws/rover_sim_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/path.sh
+[20.494s] -- Installing: /catkin_ws/rover_sim_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/path.dsv
+[20.494s] -- Installing: /catkin_ws/rover_sim_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.bash
+[20.496s] -- Installing: /catkin_ws/rover_sim_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.sh
+[20.496s] -- Installing: /catkin_ws/rover_sim_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.zsh
+[20.496s] -- Installing: /catkin_ws/rover_sim_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.dsv
+[20.498s] -- Installing: /catkin_ws/rover_sim_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.dsv
+[20.498s] -- Installing: /catkin_ws/rover_sim_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/packages/gz_ros2_control_tests
+[20.501s] -- Installing: /catkin_ws/rover_sim_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/cmake/gz_ros2_control_testsConfig.cmake
+[20.501s] -- Installing: /catkin_ws/rover_sim_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/cmake/gz_ros2_control_testsConfig-version.cmake
+[20.501s] -- Installing: /catkin_ws/rover_sim_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.xml
+[20.506s] Invoked command in '/catkin_ws/rover_sim_ws/build/gz_ros2_control_tests' returned '0': CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/opt/ros/humble /usr/bin/cmake --install /catkin_ws/rover_sim_ws/build/gz_ros2_control_tests

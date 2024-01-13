@@ -1,0 +1,122 @@
+[0.083s] Invoking command in '/catkin_ws/rover_sim_ws/build/ign_ros2_control_demos': CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/opt/ros/humble /usr/bin/cmake /catkin_ws/rover_sim_ws/src/gz_ros2_control/ign_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos
+[0.143s] -- The C compiler identification is GNU 11.4.0
+[0.191s] -- The CXX compiler identification is GNU 11.4.0
+[0.196s] -- Detecting C compiler ABI info
+[0.250s] -- Detecting C compiler ABI info - done
+[0.260s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.260s] -- Detecting C compile features
+[0.260s] -- Detecting C compile features - done
+[0.263s] -- Detecting CXX compiler ABI info
+[0.335s] -- Detecting CXX compiler ABI info - done
+[0.342s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.342s] -- Detecting CXX compile features
+[0.343s] -- Detecting CXX compile features - done
+[0.345s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.495s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.579s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.623s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.628s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.636s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.653s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.671s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.282s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[1.356s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.358s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.457s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.482s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.535s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.545s] -- Looking for pthread.h
+[1.596s] -- Looking for pthread.h - found
+[1.596s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.654s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.655s] -- Found Threads: TRUE  
+[1.799s] -- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.834s] -- Found ament_cmake_gtest: 1.3.6 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.836s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.915s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.917s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.917s] -- Configured cppcheck include dirs: 
+[1.917s] -- Configured cppcheck exclude dirs and/or files: 
+[1.918s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.919s] -- Configured cpplint exclude dirs and/or files: 
+[1.919s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.920s] -- Added test 'lint_cmake' to check CMake code style
+[1.921s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.923s] -- Added test 'uncrustify' to check C / C++ code style
+[1.923s] -- Configured uncrustify additional arguments: 
+[1.924s] -- Added test 'xmllint' to check XML markup files
+[1.925s] -- Configuring done
+[1.957s] -- Generating done
+[1.960s] -- Build files have been written to: /catkin_ws/rover_sim_ws/build/ign_ros2_control_demos
+[1.977s] Invoked command in '/catkin_ws/rover_sim_ws/build/ign_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/opt/ros/humble /usr/bin/cmake /catkin_ws/rover_sim_ws/src/gz_ros2_control/ign_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos
+[1.978s] Invoking command in '/catkin_ws/rover_sim_ws/build/ign_ros2_control_demos': CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/opt/ros/humble /usr/bin/cmake --build /catkin_ws/rover_sim_ws/build/ign_ros2_control_demos -- -j8 -l8
+[2.021s] [  8%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[2.021s] [ 16%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[2.021s] [ 25%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[2.021s] [ 33%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[2.022s] [ 41%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[2.029s] [ 50%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[18.060s] [ 58%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[18.060s] [ 66%] [32m[1mLinking CXX executable example_gripper[0m
+[18.060s] [ 75%] [32m[1mLinking CXX executable example_diff_drive[0m
+[18.063s] [ 83%] [32m[1mLinking CXX executable example_effort[0m
+[18.068s] [ 91%] [32m[1mLinking CXX executable example_velocity[0m
+[18.075s] [100%] [32m[1mLinking CXX executable example_position[0m
+[18.554s] [100%] Built target example_diff_drive
+[18.575s] [100%] Built target example_effort
+[18.581s] [100%] Built target example_gripper
+[18.582s] [100%] Built target example_tricycle_drive
+[18.589s] [100%] Built target example_velocity
+[18.622s] [100%] Built target example_position
+[18.631s] Invoked command in '/catkin_ws/rover_sim_ws/build/ign_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/opt/ros/humble /usr/bin/cmake --build /catkin_ws/rover_sim_ws/build/ign_ros2_control_demos -- -j8 -l8
+[18.675s] Invoking command in '/catkin_ws/rover_sim_ws/build/ign_ros2_control_demos': CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/opt/ros/humble /usr/bin/cmake --install /catkin_ws/rover_sim_ws/build/ign_ros2_control_demos
+[18.680s] -- Install configuration: ""
+[18.681s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch
+[18.681s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_position.launch.py
+[18.682s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_velocity.launch.py
+[18.682s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[18.682s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/diff_drive_example.launch.py
+[18.683s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/tricycle_drive_example.launch.py
+[18.683s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_effort.launch.py
+[18.683s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config
+[18.683s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/diff_drive_controller_velocity.yaml
+[18.684s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/tricycle_drive_controller.yaml
+[18.684s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cart_controller_position.yaml
+[18.684s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cart_controller_effort.yaml
+[18.685s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/gripper_controller.yaml
+[18.685s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cart_controller_velocity.yaml
+[18.685s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf
+[18.685s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[18.686s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[18.686s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[18.686s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[18.687s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[18.687s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[18.687s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_position
+[18.688s] -- Set runtime path of "/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_position" to ""
+[18.689s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_velocity
+[18.689s] -- Set runtime path of "/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_velocity" to ""
+[18.690s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_effort
+[18.690s] -- Set runtime path of "/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_effort" to ""
+[18.690s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_diff_drive
+[18.691s] -- Set runtime path of "/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_diff_drive" to ""
+[18.691s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_tricycle_drive
+[18.692s] -- Set runtime path of "/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_tricycle_drive" to ""
+[18.692s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_gripper
+[18.693s] -- Set runtime path of "/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_gripper" to ""
+[18.693s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/ign_ros2_control_demos
+[18.693s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/ign_ros2_control_demos
+[18.693s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/ament_prefix_path.sh
+[18.694s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/ament_prefix_path.dsv
+[18.694s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/path.sh
+[18.694s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/path.dsv
+[18.695s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.bash
+[18.695s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.sh
+[18.695s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.zsh
+[18.695s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.dsv
+[18.695s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.dsv
+[18.696s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ament_index/resource_index/packages/ign_ros2_control_demos
+[18.696s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/cmake/ign_ros2_control_demosConfig.cmake
+[18.696s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/cmake/ign_ros2_control_demosConfig-version.cmake
+[18.696s] -- Installing: /catkin_ws/rover_sim_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.xml
+[18.780s] Invoked command in '/catkin_ws/rover_sim_ws/build/ign_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/ign_ros2_control:/catkin_ws/rover_sim_ws/install/rover_gz:/catkin_ws/rover_sim_ws/install/ign_ros2_control_demos:/catkin_ws/rover_sim_ws/install/gz_ros2_control_tests:/opt/ros/humble /usr/bin/cmake --install /catkin_ws/rover_sim_ws/build/ign_ros2_control_demos

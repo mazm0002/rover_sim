@@ -1,0 +1,24 @@
+[0.097s] Invoking command in '/catkin_ws/rover_sim_ws/build/ign_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /catkin_ws/rover_sim_ws/build/ign_ros2_control -- -j8 -l8
+[0.193s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.412s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.433s] [31mCMake Error at CMakeLists.txt:21 (find_package):
+[0.433s]   By not providing "Findcontroller_manager.cmake" in CMAKE_MODULE_PATH this
+[0.434s]   project has asked CMake to find a package configuration file provided by
+[0.434s]   "controller_manager", but CMake did not find one.
+[0.434s] 
+[0.434s]   Could not find a package configuration file provided by
+[0.434s]   "controller_manager" with any of the following names:
+[0.434s] 
+[0.434s]     controller_managerConfig.cmake
+[0.435s]     controller_manager-config.cmake
+[0.435s] 
+[0.435s]   Add the installation prefix of "controller_manager" to CMAKE_PREFIX_PATH or
+[0.435s]   set "controller_manager_DIR" to a directory containing one of the above
+[0.436s]   files.  If "controller_manager" provides a separate development package or
+[0.436s]   SDK, be sure it has been installed.
+[0.436s] 
+[0.436s] [0m
+[0.436s] -- Configuring incomplete, errors occurred!
+[0.437s] See also "/catkin_ws/rover_sim_ws/build/ign_ros2_control/CMakeFiles/CMakeOutput.log".
+[0.440s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.448s] Invoked command in '/catkin_ws/rover_sim_ws/build/ign_ros2_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /catkin_ws/rover_sim_ws/build/ign_ros2_control -- -j8 -l8

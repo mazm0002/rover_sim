@@ -1,0 +1,58 @@
+[0.183s] Invoking command in '/catkin_ws/rover_sim_ws/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs:/opt/ros/humble LD_LIBRARY_PATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /catkin_ws/rover_sim_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/install/turtlebot3_fake_node
+[0.363s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.354s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.464s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.471s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.488s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.513s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.551s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.849s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.070s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[2.279s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.288s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.119s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.491s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.734s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[3.765s] -- Found tf2_msgs: 0.25.5 (/opt/ros/humble/share/tf2_msgs/cmake)
+[4.200s] -- Found turtlebot3_msgs: 2.2.3 (/catkin_ws/rover_sim_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[4.759s] -- Configuring done
+[4.841s] -- Generating done
+[4.851s] -- Build files have been written to: /catkin_ws/rover_sim_ws/build/turtlebot3_fake_node
+[4.887s] Invoked command in '/catkin_ws/rover_sim_ws/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs:/opt/ros/humble LD_LIBRARY_PATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /catkin_ws/rover_sim_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/install/turtlebot3_fake_node
+[4.899s] Invoking command in '/catkin_ws/rover_sim_ws/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs:/opt/ros/humble LD_LIBRARY_PATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /catkin_ws/rover_sim_ws/build/turtlebot3_fake_node -- -j8 -l8
+[5.190s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[50.102s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[51.237s] [100%] Built target turtlebot3_fake_node
+[51.361s] Invoked command in '/catkin_ws/rover_sim_ws/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs:/opt/ros/humble LD_LIBRARY_PATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /catkin_ws/rover_sim_ws/build/turtlebot3_fake_node -- -j8 -l8
+[51.459s] Invoking command in '/catkin_ws/rover_sim_ws/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs:/opt/ros/humble LD_LIBRARY_PATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /catkin_ws/rover_sim_ws/build/turtlebot3_fake_node
+[51.475s] -- Install configuration: ""
+[51.478s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[51.489s] -- Set runtime path of "/catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node" to ""
+[51.490s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch
+[51.491s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[51.491s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[51.492s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param
+[51.492s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[51.493s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[51.493s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[51.494s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/include/
+[51.495s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node
+[51.495s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[51.498s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[51.499s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[51.500s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[51.501s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[51.501s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[51.502s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[51.503s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[51.504s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[51.505s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[51.505s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[51.505s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[51.508s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[51.509s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[51.509s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[51.510s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[51.511s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[51.512s] -- Installing: /catkin_ws/rover_sim_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[51.530s] Invoked command in '/catkin_ws/rover_sim_ws/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs:/opt/ros/humble LD_LIBRARY_PATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/catkin_ws/rover_sim_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /catkin_ws/rover_sim_ws/build/turtlebot3_fake_node

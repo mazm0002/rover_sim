@@ -1,0 +1,31 @@
+[0.190s] Invoking command in '/catkin_ws/rover_sim_ws/build/ros_gz_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /catkin_ws/rover_sim_ws/src/ros_gz_sim -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/install/ros_gz_sim
+[0.198s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.472s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.477s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.482s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.492s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.511s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.534s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.606s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.609s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.758s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.010s] [31mCMake Error at CMakeLists.txt:22 (find_package):
+[1.010s]   By not providing "Findgz-math7.cmake" in CMAKE_MODULE_PATH this project has
+[1.011s]   asked CMake to find a package configuration file provided by "gz-math7",
+[1.011s]   but CMake did not find one.
+[1.011s] 
+[1.011s]   Could not find a package configuration file provided by "gz-math7" with any
+[1.011s]   of the following names:
+[1.012s] 
+[1.012s]     gz-math7Config.cmake
+[1.012s]     gz-math7-config.cmake
+[1.012s] 
+[1.012s]   Add the installation prefix of "gz-math7" to CMAKE_PREFIX_PATH or set
+[1.012s]   "gz-math7_DIR" to a directory containing one of the above files.  If
+[1.013s]   "gz-math7" provides a separate development package or SDK, be sure it has
+[1.013s]   been installed.
+[1.013s] 
+[1.013s] [0m
+[1.013s] -- Configuring incomplete, errors occurred!
+[1.014s] See also "/catkin_ws/rover_sim_ws/build/ros_gz_sim/CMakeFiles/CMakeOutput.log".
+[1.071s] Invoked command in '/catkin_ws/rover_sim_ws/build/ros_gz_sim' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /catkin_ws/rover_sim_ws/src/ros_gz_sim -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/install/ros_gz_sim
