@@ -1,5 +1,0 @@
-[31mCMake Error at cmake_install.cmake:46 (file):
-  file INSTALL cannot find "/catkin_ws/rover_sim_ws/src/rover_gz/worlds": No
-  such file or directory.
-
-[0m

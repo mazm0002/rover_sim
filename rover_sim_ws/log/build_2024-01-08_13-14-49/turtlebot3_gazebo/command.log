@@ -1,1 +1,0 @@
-Invoking command in '/catkin_ws/rover_sim_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /catkin_ws/rover_sim_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/install/turtlebot3_gazebo

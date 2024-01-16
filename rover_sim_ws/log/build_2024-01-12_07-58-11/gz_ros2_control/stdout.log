@@ -1,4 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target gz_hardware_plugins[0m
-[35m[1mConsolidate compiler generated dependencies of target gz_ros2_control-system[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/gz_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o[0m
-[ 75%] Built target gz_hardware_plugins

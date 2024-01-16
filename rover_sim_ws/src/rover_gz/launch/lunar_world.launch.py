@@ -25,6 +25,8 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 import numpy as np
+import xacro
+
 
 def generate_launch_description():
     # launch_file_dir = os.path.join(get_package_share_directory('turtlebot3_gazebo'), 'launch')
@@ -41,16 +43,23 @@ def generate_launch_description():
     )
 
     gzworld_cmd = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(pkg_gazebo_ros, 'launch', 'gz_sim.launch.py')
-        ),
-        launch_arguments={'gz_args': world+" --render_engine ogre"}.items()
-    )
+            PythonLaunchDescriptionSource(
+                [os.path.join(get_package_share_directory('ros_ign_gazebo'),
+                              'launch', 'ign_gazebo.launch.py')]),
+            launch_arguments=[('gz_args', [world + ' --render_engine ogre'])])
 
-    sdf_file = os.path.join( get_package_share_directory('rover_gz'), 'models', 'x1_description', 'urdf', 'x1_from_sdf.xacro')
-    with open(sdf_file, 'r') as infp:
-        robot_desc = infp.read()
-    params = {'robot_description': robot_desc, 'use_sim_time': use_sim_time}
+    xacro_file = os.path.join( get_package_share_directory('rover_gz'), 'models', 'x1_description', 'urdf', 'x1_from_sdf.xacro')
+    # sdf_file = os.path.join( get_package_share_directory('rover_gz'), 'models', 'X1 Config 6', 'model.sdf')
+    # print(sdf_file)
+    # with open(sdf_file, 'r') as infp:
+    #     robot_desc = infp.read()
+
+    doc = xacro.parse(open(xacro_file))
+    xacro.process_doc(doc)
+    params = {'robot_description': doc.toxml(), 'use_sim_time': use_sim_time}
+
+    print(params)
+
 
     node_robot_state_publisher = Node(
         package='robot_state_publisher',
@@ -80,6 +89,26 @@ def generate_launch_description():
                      '-allow_renaming', 'True',
                      '-x', '0', '-y', '0', '-z', '0.1'],
     )
+
+        # Bridge
+    bridge = Node(
+        package='ros_gz_bridge',
+        executable='parameter_bridge',
+        arguments=['/clock@rosgraph_msgs/msg/Clock[ignition.msgs.Clock'],
+        output='screen'
+    )
+
+    slam_node = IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(
+                [os.path.join(get_package_share_directory('slam_toolbox'),
+                              'launch', 'online_async_launch.py')]))
+    # robot_localization_node = Node(
+    #    package='robot_localization',
+    #    executable='ekf_node',
+    #    name='ekf_filter_node',
+    #    output='screen',
+    #    parameters=['/catkin_ws/rover_sim_ws/src/rover_gz/config/localization.yaml', {'use_sim_time': use_sim_time}]
+    # )
 
     NUM_OBSTACLES = 10
     OBSTACLE_NAME = 'Blue cylinder'
@@ -121,11 +150,14 @@ def generate_launch_description():
     ld = LaunchDescription()
 
     # Add the commands to the launch description
+    ld.add_action(bridge)
     ld.add_action(gzworld_cmd)
     ld.add_action(gz_spawn_entity)
     ld.add_action(node_robot_state_publisher)
-    ld.add_action(load_joint_state_controller)
-    ld.add_action(load_diff_drive_controller)
+    ld.add_action(slam_node)
+    # ld.add_action(load_joint_state_controller)
+    # ld.add_action(load_diff_drive_controller)
+    # ld.add_action(robot_localization_node)
     # ld.add_action(gzobstacle_cmd)
     NUM_OBSTACLES = 15
     OBSTACLE_NAME = 'Blue cylinder'

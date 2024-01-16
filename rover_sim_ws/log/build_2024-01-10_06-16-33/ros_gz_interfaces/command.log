@@ -1,1 +1,0 @@
-Invoking command in '/catkin_ws/rover_sim_ws/build/ros_gz_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /catkin_ws/rover_sim_ws/build/ros_gz_interfaces -- -j8 -l8

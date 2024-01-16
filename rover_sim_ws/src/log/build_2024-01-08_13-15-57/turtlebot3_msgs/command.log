@@ -1,2 +1,0 @@
-Invoking command in '/catkin_ws/rover_sim_ws/src/build/turtlebot3_msgs': /usr/bin/cmake /catkin_ws/rover_sim_ws/src/turtlebot3_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/src/install/turtlebot3_msgs
-Invoked command in '/catkin_ws/rover_sim_ws/src/build/turtlebot3_msgs' returned '1': /usr/bin/cmake /catkin_ws/rover_sim_ws/src/turtlebot3_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/catkin_ws/rover_sim_ws/src/install/turtlebot3_msgs
